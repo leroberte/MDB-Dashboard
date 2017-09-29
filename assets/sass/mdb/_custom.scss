@@ -1,0 +1,131 @@
+#customizer {
+    position: fixed;
+    right: 0;
+    right: -293px;
+    top: 15%;
+    background: #fff;
+    margin-top: -50px;
+    width: 290px;
+    transition: right 1s;
+    z-index: 9999;
+    color: #0F0F0F;
+    border-radius: 0 0 0 2px;
+    &.visible {
+        right: 0;
+    }
+    #toggle {
+        display: inline-block;
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 0px;
+        font-size: 22px;
+        background: #fff;
+        border-radius: 2px 0 0 2px;
+        color: #0f0f0f;
+        padding: 9px;
+        box-shadow: -2px 0 5px 0 rgba(0, 0, 0, .1);
+    }
+    .inner {
+        margin-top: 12px;
+        padding: 15px;
+        .form-group {
+            margin-bottom: 10px;
+            margin-right: 1rem;
+            label {
+                font-size: .8rem;
+            }
+        }
+        .customizer-heading {
+            font-size: .75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    .bg-img-preview {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        > label {
+            flex-grow: 1;
+            flex-basis: 0;
+            margin: 0 5% 8px;
+            cursor: pointer
+        }
+    }
+
+    .bg-img-options {
+        display: flex;
+        flex-direction: row;
+        .form-group {
+            flex-grow: 1;
+            flex-basis: 0;
+            label{
+              &::after,
+              &::before{
+                left: 50%;
+                transform: translateX(-30%);
+              }
+            }
+        }
+    }
+    .skins-list {
+        margin-top: 8px;
+        padding: 0 12%;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            display: inline-flex;
+            width: 20%;
+            margin-bottom: 12px;
+            a {
+                display: block;
+                margin: 0 auto;
+                .color {
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background: #fff;
+                    border: 1px solid rgba(0, 0, 0, .35);
+                    &.skin-deep-purple {
+                        background-color: #ab47bc;
+                    }
+                    &.skin-navy-blue {
+                        background-color: #324f7b;
+                    }
+                    &.skin-cyan {
+                        background-color: #4fada7
+                    }
+
+                    &.skin-indigo {
+                        background-color: #3f51b5
+                    }
+
+                    &.skin-light-blue {
+                        background-color: #3d799c
+                    }
+
+                    &.skin-mdb {
+                        background-color: #293a48
+                    }
+
+                    &.skin-black {
+                        background-color: #222
+                    }
+
+                    &.skin-white {
+                        background-color: #fff
+                    }
+
+                    &.skin-pink {
+                        background-color: #bd5d70
+                    }
+
+                    &.skin-grey {
+                        background-color: #7d8488
+                    }
+                }
+            }
+        }
+    }
+}

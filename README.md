@@ -1,6 +1,6 @@
-# [MDB-Dashboard]
+# MDB-Dashboard
 
-[MDB-Dashboard] is an open source, admin dashboard template for Material Design Bootstrap create by [Roberto Tinajero].
+MDB-Dashboard is an open source, admin dashboard template for Material Design Bootstrap create by [Roberto Tinajero].
 
 ## Status
 
@@ -54,7 +54,7 @@ Movement & Animation - MD not only supports a static form of printing design but
 One of the most important metaphors in MD is a material which has its position in space on the Z-axis, so we can tell if it is closer or farther from a user. The metaphor refers to so-called Elevation value. What is interesting, it is a fact this value simulates higher and lower positions in space by appropriately selected shading.
 
 * https://mdbootstrap.com/
-* https://twitter.com/SBootstrap
+
 
 
 ## Copyright and License

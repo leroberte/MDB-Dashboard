@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>Dashboard | HOME</title>
+	<!-- Bootstrap 3.3.7 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- Materialize icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="../css/mdb.css" rel="stylesheet">
+</head>
+
+<body class="hold-transition sidebar-mini sidebar-collapse inpro-skin gradient">
+	<div class="wrapper">
+		<!-- Customizer -->
+		<div id="customizer" class="z-depth-1">
+			<a href="#" id="toggle" title="Customize your template!"><i class="fa fa-cog" aria-hidden="true"></i></a>
+			<div class="inner">
+				<p class="text-center customizer-heading">Pick a skin color</p>
+				<ul class="skins-list">
+					<li><a href="#" data-skin-color="deep-purple-skin"><span class="color skin-deep-purple"></span></a></li>
+					<li><a href="#" data-skin-color="navy-blue-skin"><span class="color skin-navy-blue"></span></a></li>
+					<li><a href="#" data-skin-color="cyan-skin"><span class="color skin-cyan"></span></a></li>
+					<li><a href="#" data-skin-color="pink-skin"><span class="color skin-pink"></span></a></li>
+					<li><a href="#" data-skin-color="indigo-skin"><span class="color skin-indigo"></span></a></li>
+					<li><a href="#" data-skin-color="inpro-skin"><span class="color skin-light-blue"></span></a></li>
+					<li><a href="#" data-skin-color="grey-skin"><span class="color skin-grey"></span></a></li>
+					<li><a href="#" data-skin-color="white-skin"><span class="color skin-white"></span></a></li>
+					<li><a href="#" data-skin-color="black-skin"><span class="color skin-black"></span></a></li>
+					<li><a href="#" data-skin-color="mdb-skin"><span class="color skin-mdb"></span></a></li>
+				</ul>
+				<p class="text-center customizer-heading">SideNav Background Type</p>
+				<form class="form-inline">
+					<fieldset class="form-group">
+						<input name="group1" type="radio" id="radio11" value="flat">
+						<label for="radio11">Flat</label>
+					</fieldset>
+					<fieldset class="form-group">
+						<input name="group1" type="radio" id="radio21" value="gradient">
+						<label for="radio21">Gradient</label>
+					</fieldset>
+					<fieldset class="form-group">
+						<input name="group1" type="radio" id="radio31" value="background" checked="checked">
+						<label for="radio31">Image</label>
+					</fieldset>
+				</form>
+				<div id="bg-option">
+					<p class="text-center customizer-heading">Background Image</p>
+					<div class="bg-img-preview">
+						<label for="radio12"><img class="img-fluid" src="https://mdbootstrap.com/img/Others/sidenav1-min.jpg" alt="Option 1"></label>
+						<label for="radio22"><img class="img-fluid" src="https://mdbootstrap.com/img/Others/sidenav2-min.jpg" alt="Option 2"></label>
+						<label for="radio32"><img class="img-fluid" src="https://mdbootstrap.com/img/Others/sidenav3-min.jpg" alt="Option 3"></label>
+						<label for="radio42"><img class="img-fluid" src="https://mdbootstrap.com/img/Others/sidenav4-min.jpg" alt="Option 4"></label>
+					</div>
+					<form class="form-inline bg-img-options">
+						<fieldset class="form-group">
+							<input name="group2" type="radio" id="radio12" value="1" checked="checked">
+							<label for="radio12"></label>
+						</fieldset>
+						<fieldset class="form-group">
+							<input name="group2" type="radio" id="radio22" value="2">
+							<label for="radio22"></label>
+						</fieldset>
+						<fieldset class="form-group">
+							<input name="group2" type="radio" id="radio32" value="3">
+							<label for="radio32"></label>
+						</fieldset>
+						<fieldset class="form-group">
+							<input name="group2" type="radio" id="radio42" value="4">
+							<label for="radio42"></label>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- /.Customizer -->
+		<!--Main Navigation-->
+		<header class="main-header">
+			<!-- Logo -->
+			<a href="index2.html" class="logo">
+        <span class="logo-mini"><b>1npro</b></span>
+        <span class="logo-lg"><b>1npro</b>Telecom</span>
+      </a>
+			<nav class="navbar navbar-expand-xl">
+				<div class="float-left">
+					<a href="#" data-activates="slide-out" class="sidebar-toggle" data-toggle="offcanvas" role="button"></a>
+				</div>
+				<ul class="nav navbar-nav nav-flex-icons ml-auto">
+					<li class="nav-item dropdown notifications-nav">
+						<a class="nav-link dropdown-toggle waves-effect" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="badge red">3</span> <i class="fa fa-bell-o"></i>
+							<!-- <span class="d-none d-md-inline-block">Notifications</span> -->
+						</a>
+						<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">
+								<i class="fa fa-money mr-2" aria-hidden="true"></i>
+								<span>New order received</span>
+								<span class="float-right"><i class="fa fa-clock-o" aria-hidden="true"></i> 13 min</span>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="fa fa-money mr-2" aria-hidden="true"></i>
+								<span>New order received</span>
+								<span class="float-right"><i class="fa fa-clock-o" aria-hidden="true"></i> 33 min</span>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="fa fa-line-chart mr-2" aria-hidden="true"></i>
+								<span>Your campaign is about to end</span>
+								<span class="float-right"><i class="fa fa-clock-o" aria-hidden="true"></i> 53 min</span>
+							</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="messages-menu">
+              <i class="fa fa-envelope-o"></i>
+              <!-- <span class="clearfix d-none d-sm-inline-block">Messages</span> -->
+            </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link">
+              <i class="fa fa-flag-o"></i>
+              <!-- <span class="clearfix d-none d-sm-inline-block">Notifications</span> -->
+            </a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-user-circle-o"></i>
+              <span class="clearfix d-none d-sm-inline-block">User</span>
+            </a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">
+							<a class="dropdown-item" href="#">Profile</a>
+							<a class="dropdown-item" href="#">Configuration</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Log Out</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<!-- <a href="#" id="toggle" data-toggle="tooltip" data-placement="left" title="Customize your template!"><i class="fa fa-cog" aria-hidden="true"></i></a> -->
+						<a id="toggle" class="nav-link" data-toggle="tooltip" data-placement="left" title="Customize your template!">
+							<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+						</a>
+					</li>
+				</ul>
+			</nav>
+			</nav>
+		</header>
+		<!-- Left side column. contains the logo and sidebar -->
+		<aside id="sidebar" class="main-sidebar sn-bg-4">
+			<section class="sidebar ">
+				<div class="user-panel ">
+					<div class="pull-left image">
+						<img src="../img/user8-128x128.jpg" class="img-circle" alt="User Image">
+					</div>
+					<div class="pull-left info">
+						<p>Roberto Tinajero</p>
+						<a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+					</div>
+				</div>
+				<!-- search form (Optional) -->
+				<form action="#" method="get" class="sidebar-form">
+					<div class="input-group">
+						<input type="text" name="q" class="form-control" placeholder="Search...">
+						<span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+            </span>
+					</div>
+				</form>
+				<!-- /.search form -->
+				<!-- Sidebar Menu -->
+				<ul class="sidebar-menu ">
+					<!-- ***** DASHBOARD ********-->
+					<li class="active treeview">
+						<a href="#">
+            <i class="material-icons" style="font-size:18px">dashboard</i><span> Dashboard</span>
+            <!-- <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span> -->
+          </a>
+						<!-- <ul class="treeview-menu">
+							<li><a href="home.html"><i class="fa fa-genderless"></i>Monitoring</a></li>
+							<li><a href="pages/dashboard/Alarms.html"><i class="fa fa-genderless"></i>Report Alarms</a></li>
+							<li><a href="pages/Reports/NMS.html"><i class="fa fa-genderless"></i>NMS Alarms</a></li>
+						</ul> -->
+					</li>
+					<!-- ******* REPORTS **********-->
+					<li class="treeview">
+						<a href="#">
+            <i class="fa fa-server"></i><span>Reports</span>
+            <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+          </a>
+						<ul class="treeview-menu">
+							<li><a href="pages/Reports/DAS.html"><i class="fa fa-angle-right"></i>System Das</a></li>
+							<li><a href="pages/Reports/ttm.html"><i class="fa fa-angle-right"></i>Trouble Ticket</a></li>
+							<li><a href="pages/Reports/NMS.html"><i class="fa fa-angle-right"></i>NMS Alarms</a></li>
+						</ul>
+					</li>
+					<!-- ******* PERFORMANCE **********-->
+					<li class="treeview">
+						<a href="#">
+            <i class="fa fa-line-chart"></i><span>Performance</span>
+            <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+          </a>
+						<ul class="treeview-menu">
+							<li><a href="pages/Performance/Alarms.html"><i class="fa fa-angle-right"></i>Network Alarms</a></li>
+							<li><a href="pages/Performance/top-nav.html"><i class="fa fa-angle-right"></i>Performance TTM</a></li>
+						</ul>
+					</li>
+					<!-- ******* EDIT **********-->
+					<li class="treeview">
+						<a href="#">
+            <i class="fa fa-edit"></i> <span>Edit</span>
+            <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+          </a>
+						<ul class="treeview-menu">
+							<li><a href="pages/forms/general.html"><i class="fa fa-angle-right"></i> Das System</a></li>
+							<li><a href="pages/forms/advanced.html"><i class="fa fa-angle-right"></i>Das Device</a></li>
+							<li><a href="pages/forms/editors.html"><i class="fa fa-angle-right"></i> Editors</a></li>
+						</ul>
+					</li>
+					<!-- ******* CALENDAR **********-->
+					<li>
+						<a href="pages/Calendar/calendar.html">
+            <i class="fa fa-calendar"></i><span>Calendar</span>
+          </a>
+					</li>
+				</ul>
+				<!-- /.sidebar-menu -->
+			</section>
+			<!-- /.sidebar -->
+		</aside>
+
+		<!--Main Navigation-->
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<section class="content">
+				<div class="row">
+					<div class="col-xl-3 col-md-6 mb-r">
+						<div class="card card-cascade cascading-admin-card">
+							<div class="admin-up">
+								<i class="fa fa-building success-color"></i>
+								<div class="data">
+									<h5>DAS</h5>
+									<h4>70</h4>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="chip">
+									<img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-6.jpg" alt="Contact Person"> John Doe
+								</div>
+								<p class="card-text">
+									<div class="flex-row">
+										<a class="card-link">Corning</a>
+										<a class="card-link">Solid </a>
+										<a class="card-link">Comba </a>
+									</div>
+									<div class="flex-row">
+										<a class="card-link">32</a>
+										<a class="card-link">36</a>
+										<a class="card-link">4</a>
+									</div>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 mb-r">
+						<div class="card card-cascade cascading-admin-card">
+							<div class="admin-up">
+								<i class="fa fa-line-chart default-color"></i>
+								<div class="data">
+									<p>SUBSCRIPTIONS</p>
+									<h4>200</h4>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="progress">
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="card-text">Worse than last week (25%)</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 mb-r">
+						<div class="card card-cascade cascading-admin-card">
+							<div class="admin-up">
+								<i class="fa fa-pie-chart info-color"></i>
+								<div class="data">
+									<p>TRAFFIC</p>
+									<h4>20000</h4>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="progress">
+									<div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="card-text">Better than last week (75%)</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 mb-r">
+						<div class="card card-cascade cascading-admin-card">
+							<div class="admin-up">
+								<i class="fa fa-bar-chart deep-purple lighten-1"></i>
+								<div class="data">
+									<p>ORGANIC TRAFFIC</p>
+									<h4>2000</h4>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="progress">
+									<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="card-text">Better than last week (25%)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- /.content-wrapper -->
+		<!-- Main Footer -->
+		<footer class="main-footer">
+			<!-- To the right -->
+			<div class="pull-right hidden-xs">
+				<b>Version</b> 1.0.0
+			</div>
+			<strong>Copyright &copy; 2017 <a href="http://www.1nprotelecom.com">Inprotelecom</a>.</strong> All rights reserved.
+		</footer>
+	</div>
+	<!-- /. Wrapper -->
+
+	<!-- jQuery 2.2.3 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Bootstrap 3.3.7 -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="../assets/js/compiled.min.js"></script> -->
+	<!-- AdminLTE App -->
+	<script src="../js/app.min.js"></script>
+	<script src="../js/customizer.min.js"></script>
+
+</body>
+
+</html>

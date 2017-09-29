@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <title>Dashboard | HOME</title>
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Materialize icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+	<link href="../css/mdb.css" rel="stylesheet">
+</head>
+
+<body class="hold-transition sidebar-collapse sidebar-mini inpro-skin">
+  <div class="wrapper">
+    <!--Main Navigation-->
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="index2.html" class="logo">
+        <span class="logo-mini"><b>1npro</b></span>
+        <span class="logo-lg"><b>1npro</b>Telecom</span>
+      </a>
+      <nav class="navbar navbar-expand-lg navbar-dark double-nav">
+        <div class="float-left">
+          <a href="#" data-activates="slide-out" class="sidebar-toggle" data-toggle="offcanvas" role="button"></a>
+        </div>
+        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+          <li class="nav-item dropdown notifications-nav">
+                    <a class="nav-link dropdown-toggle waves-effect" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <span class="badge red">3</span> <i class="fa fa-bell"></i>
+                        <span class="d-none d-md-inline-block">Notifications</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-money mr-2" aria-hidden="true"></i>
+                            <span>New order received</span>
+                            <span class="float-right"><i class="fa fa-clock-o" aria-hidden="true"></i> 13 min</span>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-money mr-2" aria-hidden="true"></i>
+                            <span>New order received</span>
+                            <span class="float-right"><i class="fa fa-clock-o" aria-hidden="true"></i> 33 min</span>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-line-chart mr-2" aria-hidden="true"></i>
+                            <span>Your campaign is about to end</span>
+                            <span class="float-right"><i class="fa fa-clock-o" aria-hidden="true"></i> 53 min</span>
+                        </a>
+                    </div>
+                </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="messages-menu"  >
+              <i class="fa fa-envelope-o"></i>
+              <span class="clearfix d-none d-sm-inline-block">Messages</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fa fa-bell-o"></i>
+              <span class="clearfix d-none d-sm-inline-block">Notifications</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fa fa-flag-o"></i>
+              <span class="clearfix d-none d-sm-inline-block">Notifications</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-user-circle-o"></i>
+              <span class="clearfix d-none d-sm-inline-block">User</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Configuration</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar ">
+      <section class="sidebar">
+        <div class="user-panel">
+          <div class="pull-left image">
+            <img src="../img/user8-128x128.jpg" class="img-circle" alt="User Image">
+          </div>
+          <div class="pull-left info">
+            <p>Roberto Tinajero</p>
+            <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          </div>
+        </div>
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Search...">
+            <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+            </span>
+          </div>
+        </form>
+        <!-- /.search form -->
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu">
+          <!-- ***** DASHBOARD ********-->
+          <li class="active treeview">
+            <a href="#">
+            <i class="material-icons" style="font-size:18px">dashboard</i><span> Dashboard</span>
+            <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+          </a>
+            <ul class="treeview-menu">
+              <li><a href="home.html"><i class="fa fa-genderless"></i>Monitoring</a></li>
+              <li><a href="pages/dashboard/Alarms.html"><i class="fa fa-genderless"></i>Report Alarms</a></li>
+              <li><a href="pages/Reports/NMS.html"><i class="fa fa-genderless"></i>NMS Alarms</a></li>
+            </ul>
+          </li>
+          <!-- ******* REPORTS **********-->
+          <li class="treeview">
+            <a href="#">
+            <i class="fa fa-server"></i><span>Reports</span>
+            <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+          </a>
+            <ul class="treeview-menu">
+              <li><a href="pages/Reports/DAS.html"><i class="fa fa-angle-right"></i>System Das</a></li>
+              <li><a href="pages/Reports/ttm.html"><i class="fa fa-angle-right"></i>Trouble Ticket</a></li>
+              <li><a href="pages/Reports/NMS.html"><i class="fa fa-angle-right"></i>NMS Alarms</a></li>
+            </ul>
+          </li>
+          <!-- ******* PERFORMANCE **********-->
+          <li class="treeview">
+            <a href="#">
+            <i class="fa fa-line-chart"></i><span>Performance</span>
+            <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+          </a>
+            <ul class="treeview-menu">
+              <li><a href="pages/Performance/Alarms.html"><i class="fa fa-angle-right"></i>Network Alarms</a></li>
+              <li><a href="pages/Performance/top-nav.html"><i class="fa fa-angle-right"></i>Performance TTM</a></li>
+            </ul>
+          </li>
+          <!-- ******* EDIT **********-->
+          <li class="treeview">
+            <a href="#">
+            <i class="fa fa-edit"></i> <span>Edit</span>
+            <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+          </a>
+            <ul class="treeview-menu">
+              <li><a href="pages/forms/general.html"><i class="fa fa-angle-right"></i> Das System</a></li>
+              <li><a href="pages/forms/advanced.html"><i class="fa fa-angle-right"></i>Das Device</a></li>
+              <li><a href="pages/forms/editors.html"><i class="fa fa-angle-right"></i> Editors</a></li>
+            </ul>
+          </li>
+          <!-- ******* CALENDAR **********-->
+          <li>
+            <a href="pages/Calendar/calendar.html">
+            <i class="fa fa-calendar"></i><span>Calendar</span>
+          </a>
+          </li>
+        </ul>
+        <!-- /.sidebar-menu -->
+      </section>
+      <!-- /.sidebar -->
+    </aside>
+
+    <!--Main Navigation-->
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <h1>Hellos</h1>
+
+    </div>
+    <!-- /.content-wrapper -->
+    <!-- Main Footer -->
+    <footer class="main-footer">
+      <!-- To the right -->
+      <div class="pull-right hidden-xs">
+        <b>Version</b> 1.0.0
+      </div>
+      <strong>Copyright &copy; 2017 <a href="http://www.1nprotelecom.com">Inprotelecom</a>.</strong> All rights reserved.
+    </footer>
+  </div>
+  <!-- /. Wrapper -->
+
+  <!-- jQuery 2.2.3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap 3.3.7 -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- <script type="text/javascript" src="../assets/js/compiled.min.js"></script> -->
+  <!-- AdminLTE App -->
+  <script src="../js/app.min.js"></script>
+
+</body>
+
+</html>
